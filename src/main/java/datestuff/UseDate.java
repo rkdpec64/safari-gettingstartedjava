@@ -44,5 +44,10 @@ public class UseDate {
       System.out.println("Oops that broke, message is " + iae.getMessage());
     }
     System.out.println("continuing normal execution");
+
+    Holiday h = new Holiday(1, 1, 2020, "New Year's Day");
+    System.out.println("holiday is " + h);
+    System.out.println("day of holiday is " + h.getDay());
+    System.out.println("description is " + h.getDescription());
   }
 }

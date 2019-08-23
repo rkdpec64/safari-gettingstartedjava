@@ -1,6 +1,9 @@
 package datestuff;
 
 public class Date {
+  // protected -- accessible from subclasses
+  // no keyword (private, protected, nor publid) implies
+  // accessible in the same package
   private int day;
   private int month;
   private int year;
